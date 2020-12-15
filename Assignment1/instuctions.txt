@@ -1,0 +1,29 @@
+NAME: Sarthak Chakraborty
+ROLL: 16CS30044
+
+#### SOCIAL COMPUTING ASSIGNMENT 1 ####
+
+1. To create subgraphs, type `$ python create_subgraph.py`. It will store the subgraph of both the networks in `subgraphs/` directory.
+    For 'com-amazon.ungraph.txt', remove the few header lines in the edgelist file to avoid any error.
+
+2. To run the code, type `$ python gen_structure.py <subgraphname>.elist`.
+    Subgraph Names currently supported are `facebook` and `amazon`.
+
+3. Versions used:
+    python - 3.7.4 (`sudo apt install python`)
+    gnuplot - 5.2 (`sudo apt install -y gnuplot`) [Only if Plot function of Snap is used, See Point No. 4]
+
+4. If a virtual environment is created, make sure these libraries are installed:
+    certifi==2020.6.20
+    cycler==0.10.0
+    kiwisolver==1.2.0
+    matplotlib==3.3.2
+    numpy==1.19.2
+    pyparsing==2.4.7
+    python-dateutil==2.8.1
+    six==1.15.0
+    snap-stanford==5.0.0
+
+5. Part 3.c) Plot of the distribution of the shortest path lengths in the network.
+    - If we use the function `snap.GetShortPath(G, NI.GetId(), NIdToDist)` to get the shortest path for every nodes in a looping strategy, it is taking around 12 minutes to plot the result and save it for the subgraph `amazon.elist`.
+    - However, an alternate strategy forfaster combination is using `snap.PlotShortPathDistr()` which would require `gnuplot` to be installed[See Point. 2]. However, it will create additional files and the plot will be saved by the name of `diam.<Given Name>.png`.

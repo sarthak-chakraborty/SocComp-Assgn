@@ -1,0 +1,7 @@
+env/
+com-amazon.ungraph.txt
+facebook_combined.txt
+*.zip
+Assignment2/16CS30044/
+Assignment3/task1/fasttext_train/
+Assignment3/task2/glove-emb/

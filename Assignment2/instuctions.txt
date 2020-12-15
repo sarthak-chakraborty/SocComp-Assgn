@@ -1,0 +1,16 @@
+NAME: Sarthak Chakraborty
+ROLL: 16CS30044
+
+#### SOCIAL COMPUTING ASSIGNMENT 1 ####
+
+1. Store the facebook edgelist file with the name `facebook_combined.txt` in the same directory as the python files
+
+2. To calculate centrality, type `$ python gen_centrality.py`.
+    To analyze the centalities calculated, type `$ python analyse_centrality.py`
+
+3. Versions used:
+    python - 3.7.4 (`sudo apt install python`)
+
+4. If a virtual environment is created, make sure these libraries are installed:
+    numpy==1.19.2
+    snap-stanford==5.0.0

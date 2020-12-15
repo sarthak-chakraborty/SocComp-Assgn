@@ -1,0 +1,20 @@
+Number of nodes: 3213
+Number of edges: 57832
+Number of nodes with degree=7: 107
+Node id(s) with highest degree:  107
+Approximate full diameter by sampling 10 nodes: 16
+Approximate full diameter by sampling 100 nodes: 16
+Approximate full diameter by sampling 1000 nodes: 17
+Approximate full diameter (mean and variance): 16.3333, 0.3333
+Approximate effective diameter by sampling 10 nodes: 5.8501
+Approximate effective diameter by sampling 100 nodes: 5.9474
+Approximate effective diameter by sampling 1000 nodes: 6.4223
+Approximate effective diameter (mean and variance): 6.0733, 0.0937
+Fraction of nodes in largest connected component: 0.9935
+Number of edge bridges: 96
+Number of articulation points: 50
+Average clustering coefficient: 0.6
+Number of triads: 863556
+Clustering coefficient of random node 866: 0.8333
+Number of triads random node 1112 participates: 510
+Number of edges that participate in at least one triad: 57703
